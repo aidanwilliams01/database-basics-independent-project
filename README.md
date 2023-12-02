@@ -12,14 +12,20 @@
 
 ## Description
 
+## Setup Instructions
+
 1. Clone this repo.
+1. Open MYSQL Workbench and connect to your local server.
+1. Select Server > Data Import in your toolbar.
+1. Select 'Import from Self-Contained File' under Import Options and select the .sql file located in this repo's directory.
+1. Select 'Start Import' under the Import Progress tab.
 1. Navigate to this project's production directory.
     1. Create a file called "appsettings.json"
     1. Add the following code to the file:
     
         `{
           "ConnectionStrings": {
-            "DefaultConnection": "Server=localhost;Port=3306;database=[YOUR-DATABASE-NAME];uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];"
+            "DefaultConnection": "Server=localhost;Port=3306;database=aidan_williams;uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];"
           }
         }`
 1. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory.
