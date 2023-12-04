@@ -1,6 +1,6 @@
-# (Application Name)
+# Eau Claire's Salon
 
-#### (Brief description of application)
+#### An MVC web app for managing employees and clients at a hair salon.
 
 #### By Aidan Williams
 
@@ -8,9 +8,10 @@
 
 * _C#_
 * _.NET_
-* _MSTest_
 
 ## Description
+
+A web app where a hair salon owner can manage the salon's stylists and their respective clients.
 
 ## Setup Instructions
 
@@ -21,7 +22,7 @@
 1. Select 'Start Import' under the Import Progress tab.
 1. Navigate to this project's production directory.
     1. Create a file called "appsettings.json"
-    1. Add the following code to the file:
+    1. Add the following code to the file (username and password credentials are for your local server):
     
         `{
           "ConnectionStrings": {

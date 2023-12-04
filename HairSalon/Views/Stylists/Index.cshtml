@@ -4,12 +4,15 @@
 
 @using HairSalon.Models;
 
+<div class = "container-fluid">
 <h1>Stylists</h1>
-
+<hr>
 <ul>
   @foreach(Stylist stylist in Model)
   {
+    <div class = "row">
     <li>@Html.ActionLink($"{stylist.Name}", "Details", new {id = stylist.StylistId})</li>
+    </div>
   }
 </ul>
 
@@ -18,3 +21,4 @@
 @Html.ActionLink("Add new client", "Create", "Clients")
 <br>
 @Html.ActionLink("Home", "Index", "Home")
+</div>
